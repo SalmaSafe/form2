@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to right bottom, #e0c753, #bb53c9);background-repeat: no-repeat;
+    width: 20%;
+    margin: 0 0 0 20%;
+    padding: 3%;
+    height: 100vh;
+}
+
+.containerii{
+ background-color: rgba(240, 248, 255, 0.623);
+ padding: 45%;
+ width: 100%;
+ height: 40%;
+ border-radius: 5%;
+
+}
+.col-2 p{
+    margin: 0 8% 0 20%;
+
+}
+.input{
+    display: block;
+    margin: 0 0 10% 0;
+    padding: 8%;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+}
+.input2{
+    margin: 0 0 10% 0;
+    padding: 8%;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 15px;
+}
+.heading{
+    font-size: 32px;
+}
+.log__in{
+    display: block;
+    margin: 0 0 8% 0;
+    padding: 5%;
+    width: 38%;
+    border: none;
+    border-radius:5px;
+    background-color: black;
+    color: aliceblue;
+    font-size: medium;
+    
+}

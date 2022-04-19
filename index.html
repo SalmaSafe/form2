@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+  </head>
+  <body>
+    <section class="register">
+      <!-- <div class="container-row"> -->
+        <div class="col">
+          <h2 class="register__logo">dribbble</h2>
+          <h1 class="register__title">
+            Discover the World's Top Designers and Creatives
+          </h1>
+          <img class="register__img" src="./images/flattt.png" alt="" />
+          <p class="register__attribution">
+            Art by <a href="#">Peter Tarka</a>
+          </p>
+        </div>
+        <div class="col-2">
+          <form action="" class="register__form">
+            <h3 class="register__form-title">Sign up to Dribbble</h3>
+            <p> Already have an account?<a href="sign.html">Sign In</a></p>
+            <div class="icons__row">
+              <div class="google__icon">
+                <i class="fa-brands fa-google"></i>
+                <span>Sign up with Google</span>
+              </div>
+              <div class="social__icons">
+                <div class="icon__container">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="icon__container">
+                  <i class="fa-brands fa-facebook-square"></i>
+                </div>
+              </div>
+            </div>
+            <p class="register__form-option">Or</p>
+            <div class="register__form-names">
+              <label for="names">Full Name</label>
+              <input
+                class="register__form-input"
+                type="text"
+                name="names"
+                id="names"
+              />
+
+              <label for="username">Username</label>
+              <input
+                class="register__form-input"
+                type="text"
+                name="username"
+                id="username"
+              />
+            </div>
+            <label for="email">Email Address</label>
+            <input
+              class="register__form-input"
+              type="email"
+              name="email"
+              id="email"
+            />
+
+            <label for="password">Password</label>
+            <input
+              class="register__form-input"
+              type="password"
+              name="password"
+              id="password"
+            />
+            <div class="register__form-terms">
+              <input
+                class="register__form-checkbox"
+                type="checkbox"
+                name="terms"
+                id="terms"
+              />
+              <p class="register__form-policy">
+                Creating an account means you are okay with our
+                <span class="register__form-conditions"
+                  >Terms of Services, Privacy Policy,</span
+                >and our default
+                <span class="register__form-conditions"
+                  >Notification Settings</span
+                >.
+              </p>
+            </div>
+            <button class="register__form-submit">Create Account</button>
+          </form>
+          <div class="register__security">
+            <p class="register__security-text">
+              This site is protected by re<span class="register__security-captacha"
+                >captcha</span
+              >
+              and the Google
+              <span class="register__security-condition">privacy policy</span>
+              and
+              <span class="register__security-condition"
+                >terms of services</span
+              >
+              apply
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
